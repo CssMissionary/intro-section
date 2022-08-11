@@ -1,0 +1,186 @@
+:root{
+    --clr-background: rgba(183, 179, 179, 0.061);
+     --clr-primary: black;
+     --clr-secondary: rgba(0, 0, 0, 0.668);
+}
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+a{
+    color: rgba(0, 0, 0, 0.378);
+    text-decoration: none;
+    transition: all .2s ease-in;
+}
+body{
+    background-color: var(--clr-background);
+    margin: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.navigation{
+    display: flex;
+    margin-left: 70px;
+}
+.feat1,
+.feat2{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.feat1 p,
+.feat2 p{
+    margin-right: 8px;
+    color: rgba(0, 0, 0, 0.378);
+    transition: all .2s ease-in;
+}
+.feat1 p:hover,
+.feat2 p:hover {
+    color: black;
+    cursor: pointer;
+}
+.features{
+    margin-right: 30px;
+}
+.careers-about{
+    margin-left: 20px;
+    display: flex;
+}
+.careers-about a{
+    margin-right: 50px;
+}
+.login{
+    margin-left: 1100px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+a:hover{
+    color: black;
+}
+.register,
+.learn-more{
+  width: 100px;
+  height: 35px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.378);
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.378);
+  transition: background .2s ease-in;
+}
+.register:hover{
+    border: 2px solid black;
+    color: black;
+}
+.learn-more{
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    transition: background .2s ease-in;
+}
+.learn-more:hover{
+    background-color: transparent;
+    border: 2px solid black;
+    font-weight: bold;
+    color: black;
+}
+.login a{
+    margin-right: 40px;
+}
+.features-list{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.222);
+    z-index: 999;
+}
+.features-list li{
+    margin-top: 10px;
+}
+.features-list-1{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    margin-top: 20px;
+    left: 80px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.222);
+    z-index: 999;
+}
+.features-list-1 li{
+    margin: 10px 0;
+}
+.features-list-1 a{
+    margin-left: 8px;
+}
+.features-list,
+.features-list-1{
+    display: none;
+}
+.mid-section{
+    display: flex;
+    align-items: center;
+    margin-top: 160px;
+    padding: 0 150px;
+}
+.left{
+    margin-top: -30px;
+}
+.left h1{
+    width: 310px;
+    font-size: 50px;
+}
+.left p{
+    color: rgba(0, 0, 0, 0.378);
+    margin: 30px 0;
+    width: 320px;
+    line-height: 22px;
+}
+.company-plugs{
+    margin-top: 50px;
+}
+.company-plugs img{
+    margin-right: 20px;
+    width: 50px;
+}
+.right{
+    margin-left: 200px;
+}
+.right img{
+    width: 400px;
+    height: 470px;
+    margin-top: -150px;
+}
+.open{
+    display: block;
+}
+.flip{
+    transform: rotate(180deg);
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.mobile-menu{
+    display: none;
+}

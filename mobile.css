@@ -1,0 +1,131 @@
+.logo{
+    margin-left: -10px;
+}
+.hamburger{
+    display: block;
+    margin-left: 180px;
+}
+.navigation{
+    display: none;
+}
+.login{
+    display: none;
+}
+.mid-section{
+    flex-direction: column;
+}
+.left{
+    order: 2;
+    margin-left: 0;
+    margin-top: 30px;
+}
+.left h1{
+    width: 100%;
+    font-size: 34px;
+    margin-left: -10px;
+    text-align: center;
+}
+.left p{
+    text-align: center;
+    margin-right: 20px;
+}
+.right{
+    order: 1;
+    margin-left: -20px;
+    margin-top: 30px;
+}
+.right img{
+    width: 300px;
+    height: 340px;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -25px;
+    margin-bottom: 50px;
+}
+.company-plugs{
+    display: flex;
+}
+.company-plugs img{
+    margin-left: 10px;
+    width: 55px;
+    height: 22px;
+}
+.mobile-menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.menu{
+    background-color: white;
+    position: absolute;
+    width: 65%;
+    height: 100%;
+    right: 0;
+    padding: 20px;
+}
+.close-button{
+    margin-top: 20px;
+    margin-left: 80%;
+    cursor: pointer;
+}
+.menu .features{
+    margin-top: 20px;
+}
+.menu .features p{
+    font-size: 18px;
+}
+.arr3,
+.arr4{
+    margin-left: 10px;
+}
+.menu-company{
+    margin-top: 20px;
+}
+.menu-features-list{
+    margin-top: 20px;
+    display: none;
+}
+.menu-features-list-1{
+    margin-left: 40px;
+    display: none;
+}
+.menu-features-list-1 li,
+.menu-features-list li{
+   margin-top: 15px;
+}
+.menu-features-list li a{
+   margin-left: 40px;
+}
+.menu-features-list-1 li a{
+    margin-left: 10px;
+}
+.menu-careers-about{
+    display: flex;
+    flex-direction: column;
+}
+.menu-careers-about a{
+    margin-top: 20px;
+}
+.menu-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.menu-login a{
+    margin-bottom: 10px;
+}
+.menu-login .register{
+    width: 150px;
+}
+.open{
+    display: block;
+}
